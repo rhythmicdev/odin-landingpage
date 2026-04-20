@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+/* HEADER */
+
 .section-header,
 .section-hero {
     display: flex;
@@ -46,18 +48,85 @@ body {
     font-weight: 300;
 }
 
-.section-information {
+.hero-image {
 
 }
+
+/* INFORMATION */
+
+.section-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-cardcontainer {
+    display: flex;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-card {
+
+}
+
+.card-illustration {
+
+}
+
+.card-subtext {
+
+}
+
+/* testimonial */
 
 .section-testimonial {
 
 }
 
-.section-signup {
+.testimonial {
+    padding: 32px;
+}
+
+.testimonial-quote {
 
 }
 
+.testimonial-source {
+    text-align: right;
+}
+
+/* SIGNUP */
+
+.section-signup {
+}
+
+.signup-panel {
+
+}
+
+.signup-text {
+
+}
+
+.signup-title {
+
+}
+
+.signup-button {
+
+}
+
+/* FOOTER */
+
 .section-footer {
+
+}
+
+.footer-text {
 
 }
