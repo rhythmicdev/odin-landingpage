@@ -1,19 +1,32 @@
 body {
     font-family: "Roboto";
     margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 /* HEADER */
 
 .section-header,
 .section-hero {
-    display: flex;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-header,
+.section-hero,
+.section-information,
+.section-testimonial,
+.section-signup,
+.section-footer {
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 
 .section-header {
-    justify-content: space-between;
     align-items: center;
+    height: 5vh;
 }
 
 .header-logo {
@@ -33,7 +46,13 @@ body {
 }
 
 .section-hero {
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 16px;
+}
+
+.hero {
+    width: 500px;
 }
 
 .hero-title {
@@ -46,10 +65,27 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.hero-signup {
+    height: 25px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .hero-image {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    font-weight: 300;
+    width: 500px;
 }
 
 /* INFORMATION */
@@ -57,76 +93,120 @@ body {
 .section-information {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .info-cardcontainer {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .info-title {
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding-bottom: 50px;
 }
 
 .info-card {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
 }
 
 .card-illustration {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    height: 200px;
+    width: 200px;
 
 }
 
 .card-subtext {
-
+    font-weight: 300;
 }
 
 /* testimonial */
 
 .section-testimonial {
-
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.testimonial {
-    padding: 32px;
-}
 
 .testimonial-quote {
-
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .testimonial-source {
     text-align: right;
+    padding-top: 10px;
 }
 
 /* SIGNUP */
 
 .section-signup {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .signup-panel {
-
+    padding: 36px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .signup-text {
-
+    color: #F9FAF8;
 }
 
 .signup-title {
 
 }
 
-.signup-button {
+.signup-subtext {
+    font-weight: 300;
+}
 
+.signup-button {
+    height: 35px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 /* FOOTER */
 
 .section-footer {
-
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
 
 .footer-text {
-
+    font-size: 16px;
+    font-weight: 300;
+    color: #E5E7EB
 }
